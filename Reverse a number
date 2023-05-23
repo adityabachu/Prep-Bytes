@@ -1,0 +1,16 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+  public static void main(String args[]) throws IOException {
+    
+    //write your code here
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    String str = String.valueOf(num);
+    StringBuilder reverse = new StringBuilder(str).reverse();
+    int result = Integer.parseInt(reverse.toString());
+    System.out.println(result);
+    
+  }
+}
